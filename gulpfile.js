@@ -27,10 +27,18 @@ gulp.task('html', function () {
 		.pipe(gulp.dest('./'));
 });
 
+gulp.task('pages', function () {
+	rimraf(['./build/formsuccess.html', './build/resume.html'], { force: true });
+	return gulp.src(['./site/formsuccess.html', './site/resume.html'])
+		.pipe(minifyHtml())
+		.pipe(gulp.dest('./build/'));
+});
+
 gulp.task('watch', function () {
 	gulp.watch('./site/*.css', ['styles']);
 	gulp.watch('./site/*.js', ['scripts']);
 	gulp.watch('./build.html', ['html']);
+	gulp.watch('./site/*.html', ['pages']);
 });
 
-gulp.task('default', ['scripts', 'styles', 'html', 'watch']);
+gulp.task('default', ['scripts', 'styles', 'html', 'pages', 'watch']);
