@@ -93,6 +93,12 @@ section h1 {
 	padding-right: 2em;
 }
 
+
+.col-md-7 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 .footer {
 	position: absolute;
 	bottom: 0;
