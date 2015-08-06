@@ -23,6 +23,8 @@ html {
 body {
 	margin-bottom: 180px;
 	font-family: 'Roboto', sans-serif;
+	overflow-y: auto;
+	overflow-x: hidden;
 }
 
 ul {
