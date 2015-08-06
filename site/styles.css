@@ -14,3 +14,28 @@
  * 	Middle 		#757575
  * 	Light		#E0E0E0
  */
+.siteHeader {
+	height: 100vh;
+	min-height: 100%;
+	padding-top: 100px;
+}
+
+.siteHeader h1,
+.siteHeader h2 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.siteHeader h1 {
+	font-size: 4.7em;
+}
+
+.siteHeader h2 {
+	font-size: 2em;
+	margin-bottom: 1.6em;
+}
+
+#aboutBtn {
+	margin-top: 4em;
+	text-align: center;
+}
