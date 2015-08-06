@@ -93,6 +93,18 @@ section h1 {
 	padding-right: 2em;
 }
 
+.projectDetails {
+	text-align: center;
+}
+
+.project {
+	margin-bottom: 1em;
+}
+
+.project a,
+.projectDetails p {
+	text-align: justify;
+}
 
 .col-md-7 {
 	padding-left: 0;
