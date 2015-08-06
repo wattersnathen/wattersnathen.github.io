@@ -1,0 +1,16 @@
+{
+  "name": "ghpages",
+  "version": "1.0.0",
+  "description": "Portfolio of Nathen Watters | Front-End Web Developer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Portfolio",
+    "Web",
+    "Developer"
+  ],
+  "author": "Nathen Watters, wattersnathen@gmail.com",
+  "license": "MIT"
+}
