@@ -68,10 +68,18 @@ ul {
 	font-size: 1.8em;
 }
 
-#contact {
-	padding: 0 1em 1.5em 1em;
+#about {
+	text-align: justify;
 }
 
+#contact {
+	padding-bottom: 1.5em;
+}
+
+#contact, #about {
+	padding-left: 2em;
+	padding-right: 2em;
+}
 
 .footer {
 	position: absolute;
