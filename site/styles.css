@@ -57,6 +57,16 @@ ul {
 	text-align: center;
 }
 
+.share-btn {
+	display: inline-block;
+	border: none;
+	padding-top: 1em;
+	width: 1.8em;
+	outline: none;
+	transition: transform 0.25s ease;
+	transform: scale(0.9);
+	font-size: 1.8em;
+}
 
 #contact {
 	padding: 0 1em 1.5em 1em;
