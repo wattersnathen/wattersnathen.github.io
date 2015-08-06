@@ -58,6 +58,28 @@
 			
 		</section> <!-- end of portfolio section -->
 
+		<section id="contact">
+			<h2 style="text-align: center;">Let's Talk</h2>
+			<form action="//formspree.io/wattersnathen@gmail.com" method="POST">
+				<div class="form-group">
+					<input type="text" class="form-control" name="name" id="formName" placeholder="name" required/>
+				</div>
+				<div class="form-group">
+					<input type="email" class="form-control" name="_replyto" id="formEmail" placeholder="email" required/>
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" name="_subject" id="formSubject" placeholder="subject"/>
+				</div>
+				<div class="form-group">
+					<textarea class="form-control" name="message" id="formMessage" rows="10" required></textarea>
+				</div>
+				<div class="form-group" style="text-align: center;">
+					<input type="submit" value="Send" class="btn btn-primary"/>
+				</div>
+				<input type="hidden" name="_next" value="./build/formsuccess.html"/>
+			</form>
+		</section> <!-- end of contact section -->
+		
 		
 		<!-- scripts -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
