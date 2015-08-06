@@ -3,6 +3,7 @@ var uglify = require('gulp-uglify');
 var minifyHtml = require('gulp-minify-html');
 var minifyCss = require('gulp-minify-css');
 var concat = require('gulp-concat');
+var rimraf = require('gulp-rimraf');
 
 gulp.task('scripts', function () {
 	return gulp.src('./site/*.js')
@@ -19,9 +20,10 @@ gulp.task('styles', function () {
 });
 
 gulp.task('html', function () {
-	return gulp.src('./build.html')
+	return gulp.src('./*.html')
+		.pipe(concat('index.html'))
 		.pipe(minifyHtml())
-		.pipe(gulp.dest('./build/'));
+		.pipe(gulp.dest('./'));
 });
 
 gulp.task('watch', function () {
