@@ -14,6 +14,20 @@
  * 	Middle 		#757575
  * 	Light		#E0E0E0
  */
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin-bottom: 180px;
+}
+
+ul {
+	list-style-type: none;
+}
+
 .siteHeader {
 	height: 100vh;
 	min-height: 100%;
