@@ -20,7 +20,8 @@ gulp.task('styles', function () {
 });
 
 gulp.task('html', function () {
-	return gulp.src('./*.html')
+	rimraf('./index.html', { force: true});
+	return gulp.src('./build.html')
 		.pipe(concat('index.html'))
 		.pipe(minifyHtml())
 		.pipe(gulp.dest('./'));
