@@ -203,6 +203,11 @@ section h1 {
 	#contact .container {
 		width: 600px;
 	}
+
+	.projectDetails a {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
 }
 
 /* Medium devices, desktops */
