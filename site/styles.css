@@ -90,6 +90,13 @@ section h1 {
 	border: 8px solid #FDD835;
 }
 
+.content section h1 {
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
 #about {
 	text-align: justify;
 }
