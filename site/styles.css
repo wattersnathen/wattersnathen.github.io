@@ -212,12 +212,28 @@ section h1 {
 	}
 
 	.project {
-		padding-bottom: 0;
+		padding: 2em;
+		height: 372px;
+	}
+
+	.projects img {
+		height: 312px;
+		width: 360px;
+		box-shadow: 0 0 0.6em rgba(0, 0, 0, 0.9);
+	}
+
+	.col-md-5 {
+		margin-left: -1em;
 	}
 
 	#about .container,
 	#portfolio .container {
-		width: 920px;
+		width: 740px;
+	}
+
+	.navbar {
+		padding-left: 8em;
+		padding-right: 8em;
 	}
 }
 
@@ -225,8 +241,8 @@ section h1 {
 @media only screen and (min-width: 1200px) {
 
 	.navbar {
-		padding-left: 20em;
-		padding-right: 20em;
+		padding-left: 22em;
+		padding-right: 22em;
 	}
 
 
