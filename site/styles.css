@@ -194,7 +194,7 @@ section h1 {
 /* Small devices, tablets */
 @media only screen and (min-width: 768px) {
 	.siteHeader {
-		padding-top: 240px;
+		padding-top: 200px;
 	}
 
 	#about .container,
@@ -212,7 +212,7 @@ section h1 {
 /* Medium devices, desktops */
 @media only screen and (min-width: 992px) {
 	.siteHeader {
-		padding-top: 320px;
+		padding-top: 260px;
 	}
 
 	.project {
