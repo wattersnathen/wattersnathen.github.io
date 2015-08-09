@@ -82,8 +82,8 @@ section h1 {
 }
 
 #myImg {
-	max-height: 120px;
-	border-radius: 150%;
+	max-height: 140px;
+	border-radius: 50%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
