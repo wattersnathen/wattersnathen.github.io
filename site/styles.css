@@ -60,10 +60,9 @@ section h1 {
 
 .siteHeader {
 	height: 100vh;
-	min-height: 100%;
-	padding-top: 140px;
+	padding-top: 80px;
 	text-transform: uppercase;
-	background: url(../assets/background.png) repeat center center;
+	background: url(../assets/background.png);
 	background-position: fixed;
 }
 
