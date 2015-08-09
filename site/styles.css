@@ -24,7 +24,7 @@ body {
 	margin-bottom: 180px;
 	font-family: 'Roboto', sans-serif;
 	overflow-y: auto;
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 }
 
 ul {
@@ -194,15 +194,40 @@ section h1 {
 
 /* Small devices, tablets */
 @media only screen and (min-width: 768px) {
+	.siteHeader {
+		padding-top: 240px;
+	}
 
+	#about .container,
+	#portfolio .container,
+	#contact .container {
+		width: 600px;
+	}
 }
 
 /* Medium devices, desktops */
 @media only screen and (min-width: 992px) {
+	.siteHeader {
+		padding-top: 320px;
+	}
 
+	.project {
+		padding-bottom: 0;
+	}
+
+	#about .container,
+	#portfolio .container {
+		width: 920px;
+	}
 }
 
 /* large devices, wide screen */
 @media only screen and (min-width: 1200px) {
+
+	.navbar {
+		padding-left: 20em;
+		padding-right: 20em;
+	}
+
 
 }
