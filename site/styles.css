@@ -103,6 +103,11 @@ section h1 {
 	padding-right: 2em;
 }
 
+#portfolio {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
 .projectDetails {
 	text-align: center;
 }
