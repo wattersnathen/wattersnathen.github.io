@@ -45,6 +45,8 @@ section h1 {
 	min-height: 100%;
 	padding-top: 140px;
 	text-transform: uppercase;
+	background: url(../assets/background.png) repeat center center;
+	background-position: fixed;
 }
 
 .siteHeader h1 {
