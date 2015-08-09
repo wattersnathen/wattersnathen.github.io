@@ -109,6 +109,7 @@ section h1 {
 
 .project {
 	margin-bottom: 1em;
+	box-shadow: 0 0 0.6em rgba(0, 0, 0, 9);
 }
 
 .project a,
