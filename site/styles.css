@@ -51,15 +51,22 @@ section h1 {
 
 .siteHeader h1 {
 	font-size: 3em;
+	font-weight: 900;
 }
 
 .siteHeader h2 {
 	font-size: 1.2em;
 	margin-bottom: 1.4em;
+	font-weight: 700;
 }
 
 .social {
 	text-align: center;
+}
+
+.siteHeader h1,
+.siteHeader h2 {
+	color: white;
 }
 
 .share-btn {
@@ -71,6 +78,7 @@ section h1 {
 	transition: transform 0.25s ease;
 	transform: scale(0.9);
 	font-size: 1.8em;
+	color: #FFF176;
 }
 
 #myImg {
