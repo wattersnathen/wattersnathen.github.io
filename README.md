@@ -1,10 +1,13 @@
 # [wattersnathen.github.io](http://wattersnathen.github.io/)
 
-### Site To-Do List
+### Missing Features/Enhancements/Pages (TODO Items)
 
-1. CSS3 Transitions and Animations
-2. Build out the resume page and styling
-
+1. Interactive resume page:
+  * Elaborate more throughly on projects and skills. Things that were'nt covered in the resume PDF, etc.
+2. Transitions and animations:
+  * Smooth scrolling
+  * Showing section headers on `<a href="#sectionId>"` navigation. Currently, when using the navigation links, the section headers are cut off (moved underneath the navbar)
+  * use CSS3 and JavaScript to animate section content on user scroll/navigation events
 
 ### Issues
 
@@ -44,3 +47,6 @@ window.onresize = function (e) {
 };
 
 ```
+
+---
+
