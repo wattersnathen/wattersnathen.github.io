@@ -28,3 +28,19 @@ var resizeHeader = function () {
 	}
 };
 ```
+
+^ This method is then called on two events:
+
+```javascript
+$(document).ready(function () {
+	// ...
+	resizeHeader(); // resize the header on page load - DOM ready event
+});
+
+// ...
+
+window.onresize = function (e) {
+	resizeHeader();
+};
+
+```
